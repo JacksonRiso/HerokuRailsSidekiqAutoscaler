@@ -1,4 +1,4 @@
-# HerokuRailsSidekiqAutoscaler
+# Heroku Rails Sidekiq Autoscaler
 Sample code to auto-scale Heroku dynos for Rails Sidekiq. 
 
 1. Install the 'platform-api' gem
