@@ -1,9 +1,8 @@
 #Variables, to change
 jobs_queued_per_server = 1_000 # How many enqueued jobs per server? For example, if 100, then at 200 jobs enqueued, this code will add 1 more server, for a total of 2
 reset_when_threshold_met = 100 #When number of enqueued jobs dips below this threshold, return to 1 server
-max_servers = 10 # Set a max server amount. Check Redis connections
+max_servers = 10 # Set a max server amount. Check max Redis connections
 heroku_app_name = 'heroku-app-name' # Your heroku app name
-heroku_api_key = 'abc123' # User account API key
 
 
 count = enqueued_jobs.count
